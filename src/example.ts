@@ -97,11 +97,13 @@ export function demoDeprecated(input: string) {
 /**
  * Returns the age
  * ```mermaid
- * A-->B
- * A-->C
- * B-->D
- * C-->D
+ * graph TB
+ * A --> B;
+ * A --> C;
+ * B --> D;
+ * C --> D;
  * ```
+ *
  * @param age the age
  * @returns the age
  */
