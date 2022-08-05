@@ -9,6 +9,9 @@
   "typedocOptions": {
     "entryPoints": ["src/index.ts"],
     "out": "demo_documentation",
-    "name": "Nom de ma doc"
+    "name": "My documentation"
   }
 }
+
+
+
