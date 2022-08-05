@@ -8,6 +8,7 @@
   },
   "typedocOptions": {
     "entryPoints": ["src/index.ts"],
-    "out": "demo_documentation"
+    "out": "demo_documentation",
+    "name": "Nom de ma doc"
   }
 }

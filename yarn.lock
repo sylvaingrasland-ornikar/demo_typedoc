@@ -45,6 +45,11 @@ shiki@^0.10.1:
     vscode-oniguruma "^1.6.1"
     vscode-textmate "5.2.0"
 
+typedoc-theme@^0.1.4:
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/typedoc-theme/-/typedoc-theme-0.1.4.tgz#9b350390b3316c13744fdf650483c1d3426bbc74"
+  integrity sha512-bSkHubfXNZcIh/MXzlolVXrv3bV+Pz7B5RgwIiHiFKwrzgJB9ed3VMSxrw65MeIO7xNt6H/fh79/R/4ccgY4kA==
+
 typedoc@^0.23.10:
   version "0.23.10"
   resolved "https://registry.yarnpkg.com/typedoc/-/typedoc-0.23.10.tgz#285d595a5f2e35ccdf6f38eba4dfe951d5bff461"
