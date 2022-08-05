@@ -93,3 +93,18 @@ export function demoSumWithMarkdown(a: number, b: number) {
 export function demoDeprecated(input: string) {
   return input + ' NOPE';
 }
+
+/**
+ * Returns the age
+ * ```mermaid
+ * A-->B
+ * A-->C
+ * B-->D
+ * C-->D
+ * ```
+ * @param age the age
+ * @returns the age
+ */
+export function testMermaid(age: number) {
+  return age;
+}

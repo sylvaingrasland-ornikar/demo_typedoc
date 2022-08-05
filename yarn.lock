@@ -14,10 +14,38 @@ brace-expansion@^2.0.1:
   dependencies:
     balanced-match "^1.0.0"
 
+fs-extra@^10.0.0:
+  version "10.1.0"
+  resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-10.1.0.tgz#02873cfbc4084dde127eaa5f9905eef2325d1abf"
+  integrity sha512-oRXApq54ETRj4eMiFzGnHWGy+zo5raudjuxN0b8H7s/RU2oW0Wvsx9O0ACRN/kRq9E8Vu/ReskGB5o3ji+FzHQ==
+  dependencies:
+    graceful-fs "^4.2.0"
+    jsonfile "^6.0.1"
+    universalify "^2.0.0"
+
+graceful-fs@^4.1.6, graceful-fs@^4.2.0:
+  version "4.2.10"
+  resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.10.tgz#147d3a006da4ca3ce14728c7aefc287c367d7a6c"
+  integrity sha512-9ByhssR2fPVsNZj478qUUbKfmL0+t5BDVyjShtyZZLiK7ZDAArFFfopyOTj0M05wE2tJPisA4iTnnXl2YoPvOA==
+
+html-escaper@^3.0.0:
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/html-escaper/-/html-escaper-3.0.3.tgz#4d336674652beb1dcbc29ef6b6ba7f6be6fdfed6"
+  integrity sha512-RuMffC89BOWQoY0WKGpIhn5gX3iI54O6nRA0yC124NYVtzjmFWBIiFd8M0x+ZdX0P9R4lADg1mgP8C7PxGOWuQ==
+
 jsonc-parser@^3.0.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/jsonc-parser/-/jsonc-parser-3.1.0.tgz#73b8f0e5c940b83d03476bc2e51a20ef0932615d"
   integrity sha512-DRf0QjnNeCUds3xTjKlQQ3DpJD51GvDjJfnxUVWg6PZTo2otSm+slzNAxU/35hF8/oJIKoG9slq30JYOsF2azg==
+
+jsonfile@^6.0.1:
+  version "6.1.0"
+  resolved "https://registry.yarnpkg.com/jsonfile/-/jsonfile-6.1.0.tgz#bc55b2634793c679ec6403094eb13698a6ec0aae"
+  integrity sha512-5dgndWOriYSm5cnYaJNhalLNDKOqFwyDB/rr1E9ZsGciGvKPs8R2xYGCacuf3z6K1YKDz182fd+fY3cn3pMqXQ==
+  dependencies:
+    universalify "^2.0.0"
+  optionalDependencies:
+    graceful-fs "^4.1.6"
 
 lunr@^2.3.9:
   version "2.3.9"
@@ -45,6 +73,20 @@ shiki@^0.10.1:
     vscode-oniguruma "^1.6.1"
     vscode-textmate "5.2.0"
 
+typedoc-plugin-mermaid@^1.9.0:
+  version "1.9.0"
+  resolved "https://registry.yarnpkg.com/typedoc-plugin-mermaid/-/typedoc-plugin-mermaid-1.9.0.tgz#0d0c9848da0a3565f90db9ba81b031353dde9ccd"
+  integrity sha512-nZUTrgqx7tTwWcdekayFXA6qHbTUFdBYVp4uhHVgQM65+i+DVHsMGn/AjJLCMY0bEdtc9HWS2BuaKkBq1PKNlg==
+  dependencies:
+    html-escaper "^3.0.0"
+
+typedoc-theme-hierarchy@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/typedoc-theme-hierarchy/-/typedoc-theme-hierarchy-3.0.0.tgz#7c371d577723e7c9e10f7f80d3ff51147ead9975"
+  integrity sha512-f8zWRVYJ6hAIyUorTNnUtrzGo4BMApC7d2PSaUR9OG9gLUaNZTosB9EkfIsWxj7nyqG909kobeVxTa20FU9f/g==
+  dependencies:
+    fs-extra "^10.0.0"
+
 typedoc-theme@^0.1.4:
   version "0.1.4"
   resolved "https://registry.yarnpkg.com/typedoc-theme/-/typedoc-theme-0.1.4.tgz#9b350390b3316c13744fdf650483c1d3426bbc74"
@@ -64,6 +106,11 @@ typescript@^4.7.4:
   version "4.7.4"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.7.4.tgz#1a88596d1cf47d59507a1bcdfb5b9dfe4d488235"
   integrity sha512-C0WQT0gezHuw6AdY1M2jxUO83Rjf0HP7Sk1DtXj6j1EwkQNZrHAg2XPWlq62oqEhYvONq5pkC2Y9oPljWToLmQ==
+
+universalify@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/universalify/-/universalify-2.0.0.tgz#75a4984efedc4b08975c5aeb73f530d02df25717"
+  integrity sha512-hAZsKq7Yy11Zu1DE0OzWjw7nnLZmJZYTDZZyEFHZdUhV8FkH5MCfoU1XMaxXovpyW5nq5scPqq0ZDP9Zyl04oQ==
 
 vscode-oniguruma@^1.6.1:
   version "1.6.2"

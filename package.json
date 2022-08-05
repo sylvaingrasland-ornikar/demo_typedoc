@@ -1,7 +1,9 @@
 {
   "dependencies": {
     "typedoc": "^0.23.10",
+    "typedoc-plugin-mermaid": "^1.9.0",
     "typedoc-theme": "^0.1.4",
+    "typedoc-theme-hierarchy": "^3.0.0",
     "typescript": "^4.7.4"
   }
 }
